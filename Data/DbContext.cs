@@ -1,13 +1,13 @@
 ﻿using System.Data.Entity;
 
-namespace WpfEntityDb.Data
+namespace RedTurismoTours.Data
 {
 
     public class DbContext : System.Data.Entity.DbContext
     {
-        // El contexto se ha configurado para usar una cadena de conexión 'WpfEntityDbContext' del archivo 
+        // El contexto se ha configurado para usar una cadena de conexión 'DbContext' del archivo 
         // de configuración de la aplicación (App.config o Web.config). De forma predeterminada, 
-        // esta cadena de conexión tiene como destino la base de datos 'WpfEntityDb.Data.WpfEntityDbContext' de la instancia LocalDb. 
+        // esta cadena de conexión tiene como destino la base de datos 'RedTurismoTours.Data.DbContext' de la instancia LocalDb. 
         // 
         // Si desea tener como destino una base de datos y/o un proveedor de base de datos diferente, 
         // modifique la cadena de conexión 'DbContext'  en el archivo de configuración de la aplicación.
