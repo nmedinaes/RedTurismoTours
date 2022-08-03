@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using RedTurismoTours.Models;
+using System.Data.Entity;
 
 namespace RedTurismoTours.Data
 {
@@ -20,7 +21,7 @@ namespace RedTurismoTours.Data
         // sobre cómo configurar y usar un modelo Code First, vea http://go.microsoft.com/fwlink/?LinkId=390109.
 
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
-        //public virtual DbSet<Raza> Razas { get; set; }
+        //public virtual DbSet<TipoId> TipoIds { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -28,7 +29,7 @@ namespace RedTurismoTours.Data
             // Aquí haremos nuestras configuraciones con Fluent API.
 
             // Especificar el nombre de una tabla.
-            //modelBuilder.Entity<Raza>().Map(m => m.ToTable("Raza"));   
+            //modelBuilder.Entity<TipoId>().Map(m => m.ToTable("TipoId"));   
 
             /*
             // establecer una primary key.
